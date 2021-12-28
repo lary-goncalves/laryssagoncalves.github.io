@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfólio</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+  <div class="toggle" onclick="toggleMenu()"></div>
+
+  <section class="banner" id="home">
+    <div class=imgSidebar>
+      <img src="./assets/img/bg-home.jpg" alt="">
+    </div>
+    <div class="contentBx">
+      <h5 class="logoText">My_Portfólio</h5>
+      <div>
+        <h4><span>Hello</span>, I'm</h4>
+        <h2>Laryssa Gonçalves</h2>
+        <h4>A Front End Web Developer.</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore cum laudantium sit explicabo omnis? Suscipit necessitatibus, sint, laborum illum nihil culpa voluptatem, sed quo atque rerum aliquam et repellat!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore cum laudantium sit explicabo omnis? Suscipit necessitatibus, sint, laborum illum nihil culpa voluptatem, sed quo atque rerum aliquam et repellat!</p>
+        <a href="#" class="btn">About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="sidebar">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.toggle')
+      const sidebar = document.querySelector('.sidebar')
+      menuToggle.classList.toggle('active')
+      sidebar.classList.toggle('active')
+    };
+  </script>
+
+</body>
+</html>
