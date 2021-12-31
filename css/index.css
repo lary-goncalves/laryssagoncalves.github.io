@@ -307,5 +307,22 @@ p
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 20px;
-  
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.services .content .servicesBx:hover h2
+{
+  color: #fff
+}
+
+.services .content .servicesBx p
+{
+  margin: 0;
+  transition: 0.5s;
+}
+
+.services .content .servicesBx:hover p
+{
+  color: #fff;
 }
